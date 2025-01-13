@@ -1,0 +1,117 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+      
+  
+.alfredo2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        display: inline-block;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    li:hover{
+        display: inline-block;
+        background-color:darkgreen;
+        padding: 10px;
+    }
+    li:active{
+        display: inline-block;
+        background-color: black;
+        padding: 10px;
+    }
+    body{
+    background-color: black;
+    }
+    .logo{
+       height: 80px;
+    }
+    .inicio{
+        width: 50%;
+      margin-left: 25%;
+      margin-right: 40%
+    }
+    .dolls{
+            width: 55%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    }
+    p{
+            color: white;
+            background-color: rgb(244, 31, 77);
+            padding: 0.5vw;
+            margin: 0;
+    }
+    .alfredo{
+        display: grid; 
+        gap: 30px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .cuerpito{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows:1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .home{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
